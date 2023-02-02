@@ -14,39 +14,39 @@ import Partner from '../components/Common/Partner';
 import Footer from '../components/Layouts/Footer';
 
 class Index2 extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
+  render() {
+    return (
+      <>
+        <Navbar />
 
-                <MainBanner />
+        <MainBanner />
 
-                <Features />
+        <Features />
 
-                <About /> 
+        <About />
 
-                <Services />
+        <Services />
 
-                <Pricing />
+        <Pricing />
 
-                <Newsletter />
+        <Newsletter />
 
-                <MakeYourBusiness />
+        <MakeYourBusiness />
 
-                <Testimonials />
+        <Testimonials />
 
-                <WhatWeOffer />
-                
-                <News />
+        <WhatWeOffer />
 
-                <div className="pb-50">
-                    <Partner />
-                </div>
+        <News />
 
-                <Footer />
-            </>
-        );
-    }
+        <div className='pb-50'>
+          <Partner />
+        </div>
+
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Index2;
