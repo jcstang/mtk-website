@@ -4,9 +4,15 @@
   "description": "MultiTek Global - Technology moves with us.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev",
+    "compile-sass": "node-sass styles/style.scss styles/style.css",
+    "minify-sass": "node-sass styles/style.scss styles/style.min.css --output-style compressed",
+    "map-sass": "node-sass styles/style.scss styles/style.css --source-map true",
+    "export": "npm run build && next export -o _static"
   },
   "author": "EnvyTheme.com",
   "license": "ISC",
@@ -15,6 +21,7 @@
     "axios": "^0.27.2",
     "fslightbox-react": "^1.6.2-2",
     "next": "^12.2.5",
+    "node-sass": "^8.0.0",
     "nodemailer": "^6.7.7",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "react": "^18.2.0",
