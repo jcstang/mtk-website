@@ -9,7 +9,7 @@ const MainBanner = () => {
           {/* column on the left */}
           <div className='col-lg-6'>
             <div className='banner-text'>
-              <h1>Specialized Artificial Intelligence Startup</h1>
+              <h1>Technology Moves With Us</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
