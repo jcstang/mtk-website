@@ -192,9 +192,7 @@
     text-align: center;
   }
   .choose-ue-area .col-8 {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
+    flex: 100%;
     max-width: 100%;
   }
   .choose-title h2 {
@@ -721,8 +719,7 @@
     position: relative;
     right: 0;
     top: 0;
-    -webkit-transform: unset;
-            transform: unset;
+    transform: unset;
     margin-top: 15px;
     display: block;
   }
@@ -839,9 +836,7 @@
     font-size: 16px;
   }
   .brand-list .single-brand {
-    -ms-flex: 0 0 33.33%;
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
     max-width: 33.33%;
   }
   .modal-video-body {
@@ -890,7 +885,6 @@
     font-size: 35px;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .main-banner-area {
     padding-bottom: 150px;
@@ -989,7 +983,6 @@
     padding: 20px 15px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-area nav .container {
     padding: 0;
@@ -1110,9 +1103,7 @@
     text-align: center;
   }
   .choose-ue-area .col-8 {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
+    flex: 100%;
     max-width: 100%;
   }
   .choose-title {
@@ -1394,7 +1385,6 @@
     right: 0;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-area nav .navbar-nav .nav-item a {
     margin: 0 8px;
@@ -1626,7 +1616,6 @@
     left: 20px;
   }
 }
-
 @media only screen and (min-width: 1824px) {
   .main-banner-area.main-banner-area-one {
     padding-top: 250px;
@@ -1687,15 +1676,13 @@
     height: 100vh !important;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .mobile-nav .logo {
     top: 12px;
   }
   .mean-container .mean-bar {
     background-color: #04063c;
-    -webkit-box-shadow: 0 0 15px #ffffff;
-            box-shadow: 0 0 15px #ffffff;
+    box-shadow: 0 0 15px #ffffff;
     padding: 0;
     height: 65px;
   }
@@ -1711,5 +1698,4 @@
   .mean-container .mean-nav {
     margin-top: 66px;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
